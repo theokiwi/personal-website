@@ -1,4 +1,14 @@
 header{
+    
+}
+
+.navbar-brand{
+    color: #026E81;
+
+}
+
+.nav-link{
+    color: #026E81;
 }
 
 .profile {
@@ -7,13 +17,16 @@ header{
     flex-wrap: wrap;
 }
 
+.pfName{
+    color: #0099DD;
+}
 .sidepfp img{
     max-width: 300px;
     height: auto;
     margin: 2% 2% 2% 2%;
     float: left;
     border-radius: 50%;
-    filter: drop-shadow(4px 4px 4px lightgrey);
+    filter: drop-shadow( 3px 1px 1px #0099DD);
 }   
 
 .info{
@@ -26,9 +39,15 @@ header{
     flex-basis: 100%;
     margin-top: 0.5%;
     margin-left: 1%;
-    border-bottom: 1px solid #888;
+    margin-right: 1%;
+    border-bottom: 1px solid #026E81;
+    color: #00ABBD;
+
 }
 
+.section{
+    padding: 2% 0 2% 0;
+}
 .navbar-brand{
     font-size: 28px;
 }
@@ -37,17 +56,29 @@ header{
     font-size: 20px;
 }
 
-.pfName{
-}
 
 
 .card{
-    max-width: 18rem;
-    height: 13rem; 
+
     font-size: 0.9rem;
     margin: 1.5rem auto 1.5rem auto;
     width: 50%;
+    align-items: baseline;
+    filter: drop-shadow(4px 4px 4px lightgrey);
+
 }
+
+.carouselimg{
+    width:1280px !important;
+    height:720px !important;
+  }
+
+.container{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+
 
 .colimg{
     width: 9em;
@@ -63,4 +94,11 @@ header{
 .legimg{
     text-align: center;
     font-style: italic;
+}
+
+.footer-text{
+    color: #026E81;
+    font-size: 1rem;
+    text-align: center;
+    margin: 0 auto;
 }
