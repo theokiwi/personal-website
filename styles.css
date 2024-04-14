@@ -64,7 +64,7 @@ header{
     margin: 1.5rem auto 1.5rem auto;
     width: 50%;
     align-items: baseline;
-    filter: drop-shadow(4px 4px 4px lightgrey);
+    filter: drop-shadow(4px 4px 4px #0099DD);
 
 }
 
@@ -88,7 +88,7 @@ header{
     margin-right: 2em;
     margin-bottom: 1em;
     margin-top: 2em;
-    filter: drop-shadow(4px 4px 4px lightgrey);
+    filter: drop-shadow(4px 4px 4px #0099DD);
 }
 
 .legimg{
