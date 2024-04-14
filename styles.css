@@ -1,0 +1,66 @@
+header{
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sidepfp img{
+    max-width: 300px;
+    height: auto;
+    margin: 2% 2% 2% 2%;
+    float: left;
+    border-radius: 50%;
+    filter: drop-shadow(4px 4px 4px lightgrey);
+}   
+
+.info{
+    margin-top: 2%;    
+    padding: 2.5%;
+    width:60%;
+}
+
+.sectionTitle{
+    flex-basis: 100%;
+    margin-top: 0.5%;
+    margin-left: 1%;
+    border-bottom: 1px solid #888;
+}
+
+.navbar-brand{
+    font-size: 28px;
+}
+
+.nav-item{
+    font-size: 20px;
+}
+
+.pfName{
+}
+
+
+.card{
+    max-width: 18rem;
+    height: 13rem; 
+    font-size: 0.9rem;
+    margin: 1.5rem auto 1.5rem auto;
+    width: 50%;
+}
+
+.colimg{
+    width: 9em;
+    height: 9em;
+    border-radius: 50%;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 1em;
+    margin-top: 2em;
+    filter: drop-shadow(4px 4px 4px lightgrey);
+}
+
+.legimg{
+    text-align: center;
+    font-style: italic;
+}
