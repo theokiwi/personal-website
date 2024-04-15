@@ -13,6 +13,7 @@
 .nav-item {
     font-size: 20px;
 }
+
 .sectionTitle {
     flex-basis: 100%;
     margin-top: 0.5%;
@@ -27,58 +28,65 @@
     padding: 2% 0 2% 0;
 }
 
-.flexcolumnbody{
+.flexcolumnbody {
     width: 50%;
     flex-wrap: wrap;
     flex-direction: row;
 }
-.repbody{
-    width: 90%; 
-    float: left; 
+
+.repbody {
+    width: 90%;
+    float: left;
 }
-.repbullets{
+
+.repbullets {
     list-style-type: none;
 }
-.reptitles{
+
+.reptitles {
     flex-basis: 100%;
     margin-top: 0.5%;
     margin-left: 1%;
-    margin-right: 2%;
+    margin-right: 0%;
     border-bottom: 1px solid #026E81;
     color: #00ABBD;
 }
 
-.replinktitles{
+.replinktitles {
     text-decoration: none !important;
     color: #00ABBD;
+    font-weight: bold;
 }
 
-.repparagraph{
-    margin-left: 1%;
-    margin-bottom: 0;
-}
-
-.repli{
+.repparagraph {
     margin-left: 1%;
 }
 
-.buttonsdiv{
+.replinktitles a {
+    margin: 0 0 1 1%;
+}
+
+.repli {
     margin-left: 1%;
 }
 
-.btn{
+.buttonsdiv {
+    margin-left: 1%;
+}
+
+.btn {
     margin-right: 0.7%;
 
 }
 
-.imageforepo{
+.imageforepo {
     width: 10%;
     float: right;
     text-align: right;
 }
 
-.imgrep{
-    margin-top: 4.0em;
+.imgrep {
+    margin-top: 3.5em;
     margin-left: 20em;
     border-radius: 80%;
     width: 400px;
@@ -87,11 +95,65 @@
 
 }
 
- .legrep{
+.legrep {
     justify-content: center;
     text-align: center;
     margin-top: 5%;
     margin-left: 29.5em;
     width: 6em;
     color: #026E81;
+}
+
+@media screen and (max-width: 1300px) {
+    .flexcolumnbody {
+        width: 108%;
+    }
+
+    .sectionTitle {
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 2%;
+    }
+
+    .reptitles {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .repparagraph {
+        text-align: center;
+        margin: 1% 0 1% auto;
+    }
+
+    .replinktitles {
+        text-align: center;
+    }
+
+    .replinktitles p {
+        margin-top: 1%;
+    }
+
+    .buttonsdiv {
+        margin-top: 2%;
+        text-align: center;
+    }
+
+    .imageforepo {
+        width: 108%;
+        text-align: center;
+        margin: 0 0 0 auto;
+        padding: 1%;
+    }
+
+    .imgrep{
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 1%;
+
+    }
+
+    .legrep{
+        text-align: center;
+    margin: 0 auto;
+    }
 }
