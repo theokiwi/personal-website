@@ -1,7 +1,7 @@
 <h1>A first personal <strong>WebSite</strong></h1>
 <p>Built using <strong>HTML</strong>, <strong>CSS</strong>, <strong>Bootstrap</strong>.</p>
 <h4>Final Result<h4>
-
+<p>Click image to access youtube video.</p>
 <a href = "https://www.youtube.com/watch?v=rC1vWtbvLtw"><img width="552" alt="Showcase - Personal WebSite" src="https://github.com/theokiwi/personal-website/assets/65356457/1dd3b15a-448b-4aaa-80b3-89fc2d409841"></a>
 
 <h4>Wireframe, provided by teachers, used as reference!</h4>
