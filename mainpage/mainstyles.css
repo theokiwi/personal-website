@@ -1,65 +1,61 @@
-header{
-    
-}
 
-.navbar-brand{
+.navbar-brand {
     color: #026E81;
-
 }
 
-.nav-link{
+.nav-link {
     color: #026E81;
 }
 
 .profile {
-    display: flex;
+    	display: flex;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.pfName{
+.pfName {
     color: #0099DD;
 }
-.sidepfp img{
+
+.sidepfp img {
     max-width: 300px;
     height: auto;
     margin: 2% 2% 2% 2%;
     float: left;
     border-radius: 50%;
-    filter: drop-shadow( 3px 1px 1px #0099DD);
-}   
-
-.info{
-    margin-top: 2%;    
-    padding: 2.5%;
-    width:60%;
+    filter: drop-shadow(3px 1px 1px #0099DD);
 }
 
-.sectionTitle{
+.info {
+    margin-top: 2%;
+    padding: 2.5%;
+    width: 60%;
+}
+
+.sectionTitle {
     flex-basis: 100%;
     margin-top: 0.5%;
     margin-left: 1%;
     margin-right: 1%;
     border-bottom: 1px solid #026E81;
     color: #00ABBD;
-
 }
 
-.section{
+.section {
     padding: 2% 0 2% 0;
 }
-.navbar-brand{
+
+.navbar-brand {
     font-size: 28px;
 }
 
-.nav-item{
+.nav-item {
     font-size: 20px;
 }
 
 
 
-.card{
-
+.card {
     font-size: 0.9rem;
     margin: 1.5rem auto 1.5rem auto;
     width: 50%;
@@ -68,19 +64,19 @@ header{
 
 }
 
-.carouselimg{
-    width:1280px !important;
-    height:720px !important;
-  }
+.carouselimg {
+    width: 1280px !important;
+    height: 720px !important;
+}
 
-.container{
+.container {
     padding-top: 4rem;
     padding-bottom: 4rem;
 }
 
 
 
-.colimg{
+.colimg {
     width: 9em;
     height: 9em;
     border-radius: 50%;
@@ -91,12 +87,12 @@ header{
     filter: drop-shadow(4px 4px 4px #0099DD);
 }
 
-.legimg{
+.legimg {
     text-align: center;
     font-style: italic;
 }
 
-.footer-text{
+.footer-text {
     color: #026E81;
     font-size: 1rem;
     text-align: center;
