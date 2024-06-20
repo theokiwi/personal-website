@@ -60,8 +60,33 @@
     width: 50%;
     align-items: baseline;
     filter: drop-shadow(4px 4px 4px #0099DD);
+    vertical-align: middle;
 
 }
+
+.icons{
+    margin-top: 1rem;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.fa-star{
+    color: darkgoldenrod;
+}
+
+.fa-user{
+    color:blue;
+}
+
+.icons p{
+    margin: 0 auto;
+    text-align: center;
+    margin-right: 3%;
+    margin-left: 2%;
+}
+
 
 .carouselimg {
     width: 1280px !important;
@@ -147,5 +172,10 @@
     .legimg {
         align-items: center;
         text-align: center;
+    }
+
+    .card{
+        height: 400px;
+        align-items: baseline;;
     }
 }

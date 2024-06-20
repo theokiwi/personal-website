@@ -62,7 +62,7 @@
     margin-left: 1%;
 }
 
-.replinktitles a {
+.replinktitles p {
     margin: 0 0 1 1%;
 }
 
@@ -77,6 +77,29 @@
 .btn {
     margin-right: 0.7%;
 
+}
+
+.icons{
+    margin-top: 1rem;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+
+}
+
+.fa-star{
+    color: darkgoldenrod;
+}
+
+.fa-user{
+    color:blue;
+}
+
+.icons p{
+    margin: 0 auto;
+    text-align: center;
+    margin-right: 3%;
+    margin-left: 2%;
 }
 
 .imageforepo {
@@ -127,10 +150,14 @@
 
     .replinktitles {
         text-align: center;
+        display: block; 
+        margin: 0 auto; 
+        padding: 1% 0;
     }
 
-    .replinktitles p {
-        margin-top: 1%;
+
+    .repparagraph p{
+        text-align: center;
     }
 
     .buttonsdiv {
@@ -139,10 +166,10 @@
     }
 
     .imageforepo {
-        width: 108%;
+        width: 103%;
         text-align: center;
-        margin: 0 0 0 auto;
-        padding: 1%;
+        padding: 2%;
+        margin: 0 auto;
     }
 
     .imgrep{
@@ -154,6 +181,14 @@
 
     .legrep{
         text-align: center;
-    margin: 0 auto;
+         margin: 0 auto;
+
+    }
+
+    .icons{
+        text-align: center;
+        margin: o 0 0 auto;
+        width: 109%;; 
+
     }
 }
